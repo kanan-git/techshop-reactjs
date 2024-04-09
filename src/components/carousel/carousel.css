@@ -1,0 +1,27 @@
+.carouselcomp {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  height: 681px;
+  padding: 0 100px;
+  position: relative;
+}
+.carouselcomp__image {
+  height: 100%;
+  margin-left: 200px;
+}
+.carouselcomp__text {
+  width: 420px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carouselcomp__text--header {
+  width: 300px;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.carouselcomp__text--description {
+  font-size: 18px;
+}/*# sourceMappingURL=carousel.css.map */

@@ -1,0 +1,118 @@
+.catalogmenu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 61.8%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 1400px;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px #666666;
+  cursor: auto;
+}
+.catalogmenu__main {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+.catalogmenu__main--aside {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  width: 360px;
+}
+.catalogmenu__main--aside_menus {
+  position: relative;
+  color: #000000;
+  cursor: pointer;
+  transition: ease-in-out 150ms;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+.catalogmenu__main--aside_menus:hover {
+  background-color: #f5f7ff;
+}
+.catalogmenu__main--aside_menus-text {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.catalogmenu__main--aside_menus-icon {
+  filter: brightness(0.5);
+  transform: rotate(-90deg);
+}
+.catalogmenu__main--container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+.catalogmenu__brands {
+  display: flex;
+  justify-content: space-between;
+}
+.catalogmenu__brands--image {
+  width: 200px;
+}
+
+.altmenu1 {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  z-index: 2;
+  left: 100.5%;
+  width: 272px;
+  height: 346px;
+  background-color: #ffffff;
+  cursor: auto;
+}
+.altmenu1__links {
+  color: #000000;
+  cursor: pointer;
+  transition: ease-in-out 150ms;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+.altmenu1__links:hover {
+  background-color: #f5f7ff;
+}
+.altmenu1__links--text {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.altmenu1__links--icon {
+  filter: brightness(0.5);
+  transform: rotate(-90deg);
+}
+
+.altmenu2 {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  left: 100.5%;
+  width: 272px;
+  height: 346px;
+  background-color: #ffffff;
+  cursor: auto;
+}
+.altmenu2__links {
+  color: #000000;
+  cursor: pointer;
+  transition: ease-in-out 150ms;
+  display: flex;
+  padding: 10px 25px;
+}
+.altmenu2__links:hover {
+  background-color: #f5f7ff;
+}
+.altmenu2__links i {
+  font-size: 12px;
+  font-weight: 500;
+  color: #A2A6B0;
+  font-style: normal;
+  margin-left: 10px;
+}/*# sourceMappingURL=catalogmenu.css.map */

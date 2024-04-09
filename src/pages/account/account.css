@@ -1,0 +1,109 @@
+.account {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+.account__breadcrumb {
+  width: 1400px;
+}
+.account__h1 {
+  width: 1400px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.account__container {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+.account__container--aside {
+  width: 326px;
+}
+.account__container--aside_group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #F5F7FF;
+  padding: 20px 20px 20px 0px;
+  margin-bottom: 10px;
+}
+.account__container--aside_group-menus {
+  padding: 5px 0px 5px 20px;
+  cursor: pointer;
+}
+.account__container--aside_group-menus:first-of-type {
+  border-left: 3px solid #0156FF;
+  font-weight: 600;
+  padding: 5px 0px 5px 18px;
+  cursor: auto;
+}
+.account__container--aside_group-header {
+  width: auto;
+  text-align: center;
+}
+.account__container--aside_group-contain {
+  text-align: center;
+}
+.account__container--main {
+  width: 988px;
+}
+.account__container--main_group {
+  width: 100%;
+}
+.account__container--main_group-lower {
+  display: flex;
+  border-top: 2px solid #CACDD8;
+  margin-top: 15px;
+  padding-top: 15px;
+  margin-bottom: 50px;
+}
+.account__container--main_group-upper {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+.account__services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #F5F7FF;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+
+.account-h3_5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.account-h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.account-rectangle {
+  width: 292px;
+  height: 2px;
+  background-color: #CACDD8;
+  margin-left: 16px;
+}
+
+.account-cards {
+  width: 344px;
+}
+
+.account-data {
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.account-links {
+  color: #0156FF;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}/*# sourceMappingURL=account.css.map */

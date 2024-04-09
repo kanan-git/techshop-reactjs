@@ -1,0 +1,25 @@
+.breadcrumb {
+    width: auto;
+    margin: 20px 0px;
+
+    &__blocks {
+        font-size: 14px;
+
+        &:last-of-type {
+            .breadcrumb__blocks--links {
+                opacity: 0.5;
+            }
+        }
+
+        &--icons {
+            font-size: 10px;
+            margin: 0px 5px;
+            color: #0156ff;
+        }
+        
+        &--links {
+            cursor: pointer;
+            color: #000000;
+        }
+    }
+}

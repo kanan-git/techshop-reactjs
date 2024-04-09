@@ -1,0 +1,35 @@
+.services {
+  display: flex;
+  gap: 130px;
+  background-color: #F5F7FF;
+}
+
+.services-card {
+  width: 265px;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.services-card__circle {
+  width: 65px;
+  height: 65px;
+  background-color: #0156ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-card__circle--icon {
+  width: auto;
+}
+.services-card__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.services-card__description {
+  font-size: 16px;
+  padding: 0px 10px;
+  text-align: center;
+}/*# sourceMappingURL=services.css.map */

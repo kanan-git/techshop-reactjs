@@ -1,0 +1,28 @@
+.newscard {
+    width: 225px;
+    height: 322px;
+    // border: 1px solid blueviolet;
+    cursor: pointer;
+
+    &__image {
+        width: auto;
+
+        &--content {
+            width: auto;
+        }
+    }
+
+    &__summary {
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+        padding: 10px 30px;
+    }
+
+    &__date {
+        color: #A2A6B0;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 600;
+    }
+}

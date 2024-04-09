@@ -1,0 +1,66 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about__header {
+  width: 1400px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.about__blocks {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about__blocks:nth-of-type(even) {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.about__blocks--container {
+  width: 1400px;
+  height: 681px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about__breadcrumb {
+  width: 1400px;
+}
+.about__review {
+  width: 100%;
+  padding: 63px 0px;
+  display: flex;
+  justify-content: center;
+}
+.about__services {
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #F5F7FF;
+}
+
+.about-h1 {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.about-information {
+  width: 565px;
+}
+
+.about-text {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.about-images {
+  width: auto;
+}
+
+.about-symbol {
+  width: auto;
+  margin-right: 20px;
+}/*# sourceMappingURL=about.css.map */

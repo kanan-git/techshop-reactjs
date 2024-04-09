@@ -1,0 +1,19 @@
+.breadcrumb {
+  width: auto;
+  margin: 20px 0px;
+}
+.breadcrumb__blocks {
+  font-size: 14px;
+}
+.breadcrumb__blocks:last-of-type .breadcrumb__blocks--links {
+  opacity: 0.5;
+}
+.breadcrumb__blocks--icons {
+  font-size: 10px;
+  margin: 0px 5px;
+  color: #0156ff;
+}
+.breadcrumb__blocks--links {
+  cursor: pointer;
+  color: #000000;
+}/*# sourceMappingURL=breadcrumb.css.map */

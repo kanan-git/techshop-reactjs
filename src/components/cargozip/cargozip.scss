@@ -1,0 +1,27 @@
+.cargozip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: #272560;
+    &__image {
+        width: auto;
+        &--content {
+            width: auto;
+        }
+    }
+    &__rectangle {
+        width: 2px;
+        height: 23px;
+        background-color: #00aeb8;
+        margin: 0px 10px;
+    }
+    &__phrase {
+        font-size: 20px;
+    }
+    &__link {
+        font-size: 18px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

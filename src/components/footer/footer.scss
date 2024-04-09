@@ -1,0 +1,146 @@
+.footer {
+    background-color: #020203;
+    color: rgba(255,255,255,1.0);
+    display: flex;
+    justify-content: center;
+    height: 520px;
+    
+    &__container {
+        width: 1400px;
+        padding-top: 30px;
+        // @media only screen and (max-width: 1920px) {}
+        // @media only screen and (max-width: 1440px) {}
+        // @media only screen and (max-width: 1280px) {}
+
+        &--blocks {
+            // border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &:first-of-type {
+                height: 130px;
+            }
+
+            &:last-of-type {
+                border-top: 1px solid rgba(255,255,255,0.2);
+                height: 56px;
+            }
+
+            .aside {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header_1 {
+                font-size: 38px;
+            }
+
+            .paragraph {
+                font-size: 16px;
+            }
+            
+            .subscription {
+                display: flex;
+                gap: 30px;
+            }
+            
+            .subscription_email {
+                width: 391px;
+                height: 50px;
+                padding: 10px;
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 5px;
+                border: 2px solid #ffffff;
+                outline: none;
+                background-color: transparent;
+                color: #ffffff;
+            }
+            
+            .subscription_submit {
+                width: 151px;
+                height: 50px;
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 25px;
+                border: none;
+                outline: none;
+                background-color: #0156FF;
+                color: #ffffff;
+                cursor: pointer;
+            }
+            
+            .columns {
+                display: flex;
+                flex-direction: column;
+                align-self: flex-start;
+                gap: 5px;
+                padding-top: 10px;
+                margin-bottom: 40px;
+            }
+            
+            .links {
+                color: #ffffff;
+                font-size: 14px;
+                width: fit-content;
+                cursor: pointer;
+                transition: 150ms ease-in-out;
+                &:hover {
+                    transform: translateX(5px);
+                    scale: 1.01;
+                    opacity: 0.8;
+                }
+            }
+            
+            .header_4 {
+                color: rgba(255,255,255,0.5);
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+            
+            .info {
+                width: auto;
+            }
+
+            .linked {
+                cursor: pointer;
+                color: #01a4ff;
+            }
+            
+            .smedia {
+                display: flex;
+                gap: 15px;
+                
+                &__btn {
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+            
+            .icons {
+                opacity: 0.5;
+            }
+            
+            .payment_methods {
+                display: flex;
+                gap: 10px;
+                justify-self: center;
+            }
+            
+            .cards {
+                width: auto;
+            }
+            
+            .copyrights {
+                font-size: 12px;
+                color: rgba(255,255,255,0.5);
+            }
+        }
+    }
+}

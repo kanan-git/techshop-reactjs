@@ -1,0 +1,116 @@
+.catalogmenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 61.8%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 1400px;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #666666;
+    cursor: auto;
+    &__main {
+        border-bottom: 2px solid rgba(0,0,0,0.2);
+        display: flex;
+        justify-content: space-between;
+        &--aside {
+            display: flex;
+            flex-direction: column;
+            border-right: 2px solid rgba(0,0,0,0.2);
+            width: 360px;
+            &_menus {
+                position: relative;
+                color: #000000;
+                cursor: pointer;
+                transition: ease-in-out 150ms;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 25px;
+                &:hover {
+                    background-color: #f5f7ff;
+                }
+                &-text {
+                    width: fit-content;
+                }
+                &-icon {
+                    filter: brightness(0.5);
+                    transform: rotate(-90deg);
+                }
+            }
+        }
+        &--container {
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+        }
+    }
+    &__brands {
+        display: flex;
+        justify-content: space-between;
+        &--image {
+            width: 200px;
+        }
+    }
+}
+
+.altmenu1 {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+    left: 100.5%;
+    width: 272px;
+    height: 346px;
+    background-color: #ffffff;
+    cursor: auto;
+    &__links {
+        color: #000000;
+        cursor: pointer;
+        transition: ease-in-out 150ms;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 25px;
+        &:hover {
+            background-color: #f5f7ff;
+        }
+        &--text {
+            width: fit-content;
+        }
+        &--icon {
+            filter: brightness(0.5);
+            transform: rotate(-90deg);
+        }
+    }
+}
+
+.altmenu2 {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    left: 100.5%;
+    width: 272px;
+    height: 346px;
+    background-color: #ffffff;
+    cursor: auto;
+    &__links {
+        color: #000000;
+        cursor: pointer;
+        transition: ease-in-out 150ms;
+        display: flex;
+        padding: 10px 25px;
+        &:hover {
+            background-color: #f5f7ff;
+        }
+        i {
+            font-size: 12px;
+            font-weight: 500;
+            color: #A2A6B0;
+            font-style: normal;
+            margin-left: 10px;
+        }
+    }
+}

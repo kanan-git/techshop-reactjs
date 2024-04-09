@@ -1,0 +1,30 @@
+.carouselcomp {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    height: 681px;
+    padding: 0 100px;
+    position: relative;
+    &__image {
+        height: 100%;
+        margin-left: 200px;
+    }
+    &__text {
+        width: 420px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        &--header {
+            width: 300px;
+            font-size: 40px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        &--description {
+            font-size: 18px;
+        }
+    }
+    &__pagination {
+        &--dots {}
+    }
+}

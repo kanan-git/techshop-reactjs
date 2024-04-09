@@ -1,0 +1,109 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register__breadcrumb {
+  width: 1400px;
+}
+.register__header {
+  width: 1400px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.register__container {
+  width: 1400px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.register__container--sections {
+  width: 568px;
+  height: 416px;
+  background-color: #F5F7FF;
+  padding: 40px 50px;
+}
+.register__container--sections_group {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.register__container--sections_group-login {
+  width: 151px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #0156FF;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+}
+.register__container--sections_group-recover {
+  color: #0156FF;
+  cursor: pointer;
+}
+.register__container--sections_header {
+  font-size: 18px;
+  font-weight: 600;
+}
+.register__container--sections_text {
+  margin: 15px 0;
+}
+.register__container--sections_list {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.register__container--sections_list-elements {
+  list-style: disc;
+}
+.register__container--sections_list-elements:not(:last-of-type) {
+  margin-bottom: 5px;
+}
+.register__container--sections_submit {
+  width: 208px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #0156FF;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+}
+.register__services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: #F5F7FF;
+}
+
+.register-label__header {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.register-label__header--symbol {
+  color: #C94D3F;
+}
+
+.register-label__input {
+  width: 450px;
+  height: 50px;
+  border: 2px solid #D5D8E1;
+  border-radius: 6px;
+  padding-left: 20px;
+  outline: none;
+  margin-bottom: 20px;
+}
+.register-label__input::-moz-placeholder {
+  color: #D5D8E1;
+}
+.register-label__input::placeholder {
+  color: #D5D8E1;
+}/*# sourceMappingURL=register.css.map */
