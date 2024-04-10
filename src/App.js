@@ -32,5 +32,12 @@ function App() {
 
 export default App
 
-// cd OneDrive/Desktop/techshop-reactjs
-// npm start
+// ---------------------------------------- LEFT TASKS ---------------------------------------- //
+
+// header & navbar mobile version (mobile 320, 375, 425; tablet 768, 1024; desktop 1280, 1440, 1920)
+// mobile menu button
+// header search button transform function
+// css responsivity of all component & pages (home catalog product cart checkout contact register account about faq)
+// redux tlk, product & uniquie link ids, local storage
+// json server / free api
+// all rest of custom hooks & functions
